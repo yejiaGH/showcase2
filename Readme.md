@@ -35,4 +35,8 @@ fs.readdir(source, function (err, files) {
 
 ### 然后 Promise 出现了
 
-> 因为我不是考古派，我们也不讨论 Promise 的历史了。
+> 因为我不是考古派，我们也不讨论 [Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise) 的历史了。
+
+### NodeJS 的 Stream
+
+> Steam 是 NodeJS 和核心编程模型，James Halliday 写过一本指南 [stream-handbook](https://github.com/substack/stream-handbook)
