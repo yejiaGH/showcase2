@@ -39,7 +39,7 @@ fs.readdir(source, function (err, files) {
 
 ### NodeJS 的 Stream
 
-> Steam 是 NodeJS 和核心编程模型，James Halliday 写过一本指南 [stream-handbook](https://github.com/substack/stream-handbook)
+> Steam 是 NodeJS 的核心编程模型，James Halliday 写过一本指南 [stream-handbook](https://github.com/substack/stream-handbook)
 
 ### Generator
 
