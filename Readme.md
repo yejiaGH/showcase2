@@ -52,3 +52,13 @@ fs.readdir(source, function (err, files) {
 ### 将管道模型用在前端
 
 > [RxJS](https://buctwbzs.gitbooks.io/rxjs/content/)
+
+### 用例运行
+
+```
+npm run 1
+
+npm run 2
+
+....
+````
