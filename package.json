@@ -9,7 +9,9 @@
     "2": "node ./cases/2.writeable-steam.js",
     "3": "node ./cases/3.http.js",
     "4": "node ./cases/4.read-n-write.js",
-    "5": "node ./cases/5.gzip.js"
+    "5": "node ./cases/5.gzip.js",
+    "6": "node ./cases/6.generator.js",
+    "7": "node ./cases/7.generator-async.js"
   },
   "repository": {
     "type": "git",
