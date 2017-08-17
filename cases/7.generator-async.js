@@ -14,13 +14,14 @@ function wait(time) {
  */
 function runer(g) {
   const item = g.next()
-  // 如果是 Promise 
-  if (item.value instanceof Promise) {
-    item.value.then((res) => {
-      if (!item.done) {
+
+  if (!item.done) {
+    // 如果是 Promise 
+    if (item.value instanceof Promise) {
+      item.value.then((res) => {
         runer(g)
-      }
-    })
+      })
+    }
   }
 }
 
