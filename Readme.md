@@ -53,6 +53,8 @@ fs.readdir(source, function (err, files) {
 
 > [RxJS](https://buctwbzs.gitbooks.io/rxjs/content/)
 
+* https://rxviz.com/examples/basic-interval
+
 ### 用例运行
 
 ```
